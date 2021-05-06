@@ -14,7 +14,7 @@ import org.junit.Test
 import org.junit.Assert.*
 import org.junit.Rule
 
-class HomeActivityTest {
+class  HomeActivityTest {
 
     private val dummyCourse = DataDummy.generateDummyCourses()
 

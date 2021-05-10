@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.4.31"
+    ext.kotlin_version = "1.5.0"
     ext {
         //dependencies version
         appCompatVersion = '1.2.0'
@@ -14,6 +14,7 @@ buildscript {
         androidCoreTestVersion = '2.1.0'
         mockitoVersion = '3.9.0'
         mockitoKotlinVersion = '2.2.0'
+        idleResourceVersion = '3.2.0'
 
         materialVersion = '1.2.1'
         recyclerViewVersion = '1.1.0'
@@ -21,7 +22,7 @@ buildscript {
     }
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.0'
@@ -35,7 +36,7 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 

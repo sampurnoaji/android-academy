@@ -13,4 +13,6 @@
     <string name="bookmark">Bookmark</string>
     <string name="deadline_date">Deadline %s</string>
     <string name="share_text">Segera daftar kelas %s di dicoding.com</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
 </resources>
